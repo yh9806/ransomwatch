@@ -2,11 +2,8 @@ name: ransomwatch
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
-  workflow_dispatch:
-
-# to consider: the use of action jobs to breakout each task
-# https://docs.github.com/en/actions/learn-github-actions/essential-features-of-github-actions#sharing-data-between-jobs
+    - cron: '0 */2 * * *'  # 2시간마다 자동 실행
+  workflow_dispatch:        # 수동 실행도 허용
 
 jobs:
   torsocks-job:
@@ -16,16 +13,20 @@ jobs:
       torproxy:
         image: ghcr.io/joshhighet/torsocc:latest
         ports:
-        - 9050:9050
+          - 9050:9050
+
     steps:
       - name: checkout the repo
         uses: actions/checkout@v2
+
       - name: install dependencies
         run: |
           pip3 install -r requirements.txt
+
       - name: run scraper
         run: |
           python3 ransomwatch.py scrape
+
       - name: run parser
         env: 
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
@@ -37,20 +38,29 @@ jobs:
           X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
         run: |
           python3 ransomwatch.py parse
+
       - name: generate markdown & graphs for docsify
         run: |
           python3 ransomwatch.py markdown
+
       - name: generate kv groups for analytics
         run: |
           python3 assets/groups-kv.py
+
+      - name: run your custom valse.py alert script 🔔
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python3 valse.py
+
       - name: save changes
-        # git config --global user.email "joshhighet@users.noreply.github.com"
-        # git config --global user.name "josh"
-        run: |  
+        run: |
           git config user.name github-actions
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git commit --all --message "𝚌𝚛𝚘𝚗𝚋𝚘𝚝" || echo "no changes to commit"
           git push
+
       - name: ping c2 beep bop
         run: |
           curl -sSf "https://betteruptime.com/api/v1/heartbeat/${{ secrets.HEARTBEAT_SECRET }}" || true
