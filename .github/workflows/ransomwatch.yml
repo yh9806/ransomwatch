@@ -47,12 +47,12 @@ jobs:
         run: |
           python3 assets/groups-kv.py
 
-      - name: run your custom valse.py alert script 🔔
+      - name: run your custom Valse.py alert script 🔔
         env:
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
-          python3 valse.py
+          python3 Valse.py
 
       - name: save changes
         run: |
