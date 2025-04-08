@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-08 | [`physiciansmedicalbilling.net`](https://google.com/search?q=physiciansmedicalbilling.net) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-08 | [`Fraser Trebilcock`](https://google.com/search?q=Fraser+Trebilcock) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-08 | [`Csm Engineering`](https://google.com/search?q=Csm+Engineering) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
 | 2025-04-08 | [`Baltimore Steel Erectors`](https://google.com/search?q=Baltimore+Steel+Erectors) | [play](https://ransomwatch.telemetry.ltd/#/profiles?id=play) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-10 | [`formanmills.com\$422.2M\USA\846GB\100% DISCLOSED`](https://google.com/search?q=formanmills.com%5C%24422.2M%5CUSA%5C846GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-10 | [`amalgamatedsugar.com\$764.8 M\USA\464GB\100% DISCLOSED`](https://google.com/search?q=amalgamatedsugar.com%5C%24764.8+M%5CUSA%5C464GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
 | 2025-03-10 | [`pace-usa.com\$134.4M\USA\65GB\100% DISCLOSED`](https://google.com/search?q=pace-usa.com%5C%24134.4M%5CUSA%5C65GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
-| 2025-03-10 | [`steelwarehouse.com\$570.3M\USA\679GB\100% DISCLOSED`](https://google.com/search?q=steelwarehouse.com%5C%24570.3M%5CUSA%5C679GB%5C100%25+DISCLOSED) | [cactus](https://ransomwatch.telemetry.ltd/#/profiles?id=cactus) |
