@@ -78308,5 +78308,10 @@
         "post_title": "Telecontrol",
         "group_name": "ransomhouse",
         "discovered": "2025-04-08 02:11:36.909081"
+    },
+    {
+        "post_title": "[DISCLOSED]Cell C",
+        "group_name": "ransomhouse",
+        "discovered": "2025-04-08 03:29:41.757295"
     }
 ]
