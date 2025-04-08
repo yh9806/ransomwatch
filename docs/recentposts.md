@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-08 | [`grupotersa.com.mx`](https://google.com/search?q=grupotersa.com.mx) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-08 | [`graphiquedefrance.com`](https://google.com/search?q=graphiquedefrance.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-08 | [`asiapacificex.com`](https://google.com/search?q=asiapacificex.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-08 | [`[DISCLOSED]Cell C`](https://google.com/search?q=%5BDISCLOSED%5DCell+C) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-09 | [`ACTi Corporation`](https://google.com/search?q=ACTi+Corporation) | [lynx](https://ransomwatch.telemetry.ltd/#/profiles?id=lynx) |
 | 2025-03-09 | [`wog-kaiserbaeder.de`](https://google.com/search?q=wog-kaiserbaeder.de) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2025-03-09 | [`williampevear.com`](https://google.com/search?q=williampevear.com) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2025-03-09 | [`emperors.edu`](https://google.com/search?q=emperors.edu) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
