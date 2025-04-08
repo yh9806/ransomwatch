@@ -4,6 +4,7 @@ _last `200` posts_
 
 | date | title | group |
 |---|---|---|
+| 2025-04-08 | [`asiapacificex.com`](https://google.com/search?q=asiapacificex.com) | [lockbit3](https://ransomwatch.telemetry.ltd/#/profiles?id=lockbit3) |
 | 2025-04-08 | [`[DISCLOSED]Cell C`](https://google.com/search?q=%5BDISCLOSED%5DCell+C) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-04-08 | [`Telecontrol`](https://google.com/search?q=Telecontrol) | [ransomhouse](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhouse) |
 | 2025-03-30 | [`www.assisi.nl`](https://google.com/search?q=www.assisi.nl) | [ransomhub](https://ransomwatch.telemetry.ltd/#/profiles?id=ransomhub) |
@@ -203,4 +204,3 @@ _last `200` posts_
 | 2025-03-09 | [`williampevear.com`](https://google.com/search?q=williampevear.com) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2025-03-09 | [`emperors.edu`](https://google.com/search?q=emperors.edu) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
 | 2025-03-09 | [`baldaufarchitekten.de`](https://google.com/search?q=baldaufarchitekten.de) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
-| 2025-03-09 | [`BerksBar.org`](https://google.com/search?q=BerksBar.org) | [incransom](https://ransomwatch.telemetry.ltd/#/profiles?id=incransom) |
