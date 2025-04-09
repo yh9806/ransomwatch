@@ -51,7 +51,8 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git commit --all --message "𝚌𝚛𝚘𝚗𝚋𝚘𝚝" || echo "no changes to commit"
+          git add posts.json
+          git commit -m "🔄 자동 posts.json 업데이트" || echo "no changes to commit"
           git push
 
       - name: ping c2 beep bop
