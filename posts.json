@@ -1423,5 +1423,10 @@
         "post_title": "EVGA",
         "group_name": "avaddon",
         "discovered": "2025-05-02 18:49:31.513640"
+    },
+    {
+        "post_title": "Vistex",
+        "group_name": "avaddon",
+        "discovered": "2025-05-02 20:45:26.250576"
     }
 ]
